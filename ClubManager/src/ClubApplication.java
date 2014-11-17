@@ -3,5 +3,10 @@ public class ClubApplication {
 
 	public static void main (String args[]){
 		System.out.println("Welcome to club application");
-	}
+		
+		// creating an object for the class Person
+		Person personObject = new Person("Mr",
+				"Prasanna","Veerapandi");
+		personObject.Show();
+		}
 }

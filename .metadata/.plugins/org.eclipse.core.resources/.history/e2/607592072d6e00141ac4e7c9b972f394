@@ -1,0 +1,40 @@
+import java.security.acl.Permission;
+
+
+public class Person {
+// private attributes
+	private String surName;
+	
+	public String getSurName() {
+		return surName;
+	}
+	public void setSurName(String surName) {
+		this.surName = surName;
+	}
+	private String firstName;
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	private String secondName;
+
+	public String getSecondName() {
+		return secondName;
+	}
+	public void setSecondName(String secondName) {
+		this.secondName = secondName;
+	}
+	// default constructor
+	public Person(){
+		this("#name","#firstname","#secondName");
+	}
+	//parameterized constructor
+	public Person(String surName, String firstName, String secondName){
+			this.surName= surName;
+			this.firstName= firstName;
+			this.secondName= secondName;
+	}
+}

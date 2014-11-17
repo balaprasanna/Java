@@ -1,0 +1,13 @@
+
+public class ClubApplication {
+
+	private static Person p;
+
+	public static void main (String args[]){
+		System.out.println("Welcome to club application");
+		
+		p = new Person("Mr",
+				"Prasanna","Veerapandi");
+		
+		}
+}

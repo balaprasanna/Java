@@ -1,0 +1,21 @@
+
+public class ClubApplication {
+
+	private static Person p;
+
+	public static void main (String args[]){
+		System.out.println("Welcome to club application");
+		
+		setP(new Person("Mr",
+				"Prasanna","Veerapandi"));
+		
+		}
+
+	public static Person getP() {
+		return p;
+	}
+
+	public static void setP(Person p) {
+		ClubApplication.p = p;
+	}
+}

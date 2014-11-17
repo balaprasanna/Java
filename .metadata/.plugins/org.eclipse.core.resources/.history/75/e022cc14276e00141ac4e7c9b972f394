@@ -1,0 +1,18 @@
+import java.security.acl.Permission;
+
+
+public class Person {
+// private attributes
+	private String surName;
+	private String firstName;
+	private String secondName;
+
+	public Person(){
+		this("#name","#firstname","#secondName");
+	}
+	public Person(String surName, String firstName, String secondName){
+			this.surName= surName;
+			this.firstName= firstName;
+			this.secondName= secondName;
+	}
+}
