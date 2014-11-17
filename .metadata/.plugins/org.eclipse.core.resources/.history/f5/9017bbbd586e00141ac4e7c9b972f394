@@ -20,9 +20,6 @@ public class ClubApplication {
 		Facility facilityObject = new Facility("MPHL", "Multi-purpose hall");
 		Facility facilityObject1 = new Facility("Dinning", "Dinning hall");
 		Facility facilityObject2 = new Facility("Sports center", "Sports center for all");
-		
-		facilityObject.Show();
-		facilityObject1.Show();
-		facilityObject2.Show();
+			
 	}
 }

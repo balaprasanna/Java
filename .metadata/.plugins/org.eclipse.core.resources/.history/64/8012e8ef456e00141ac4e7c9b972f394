@@ -31,11 +31,6 @@ public class Person {
 	public Person(){
 		this("#name","#firstname","#secondName");
 	}
-	public Person(String surName, String firstName){
-		this(surName,firstName," ");
-		
-		
-	}
 	//parameterized constructor
 	public Person(String surName, String firstName, String secondName){
 			this.surName= surName;
