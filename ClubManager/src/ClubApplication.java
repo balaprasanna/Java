@@ -12,17 +12,22 @@ public class ClubApplication {
 		Person personObject2 = new Person("Mr",
 				"Dhilip");
 		
-		personObject.Show();
-		personObject1.Show();
-		personObject2.Show();
+		//personObject.Show();
+		//personObject1.Show();
+		//personObject2.Show();
 		
 		
 		Facility facilityObject = new Facility("MPHL", "Multi-purpose hall");
 		Facility facilityObject1 = new Facility("Dinning", "Dinning hall");
 		Facility facilityObject2 = new Facility("Sports center", "Sports center for all");
 		
-		facilityObject.Show();
-		facilityObject1.Show();
-		facilityObject2.Show();
+		//facilityObject.Show();
+		//facilityObject1.Show();
+		//facilityObject2.Show();
+		
+		Member m = new Member(1,"Mr",
+				"Prasanna","Veerapandi");
+		m.Show();
+		
 	}
 }

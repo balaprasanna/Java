@@ -1,0 +1,22 @@
+
+public class Member  {
+private int memberNumber;
+private Person p;
+
+public int getMemberNumber() {
+	return memberNumber;
+}
+
+public void setMemberNumber(int memberNumber) {
+	this.memberNumber = memberNumber;
+}
+
+public Member(){
+	
+}
+
+public Member(int memberNumber,Person p){
+	this.p= p;
+	this.memberNumber= memberNumber;
+}
+}

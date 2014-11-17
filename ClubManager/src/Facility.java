@@ -29,6 +29,10 @@ public Facility(String name,String description){
 	
 }
 public void Show(){
-	System.out.println(""+this.name+" "+this.description);
+	System.out.println(this.toString());
+}
+
+public String toString(){
+	return  this.name+" "+this.description;
 }
 }

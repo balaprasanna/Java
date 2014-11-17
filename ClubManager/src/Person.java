@@ -44,6 +44,14 @@ public class Person {
 	}
 	
 	public void Show(){
-		System.out.println(""+this.surName+" "+this.firstName+" "+this.secondName);
+		//System.out.println(""+this.surName+" "+this.firstName+" "+this.secondName);
+		System.out.println(this.toString());
 	}
+	
+	@Override
+		public String toString() {
+			// TODO Auto-generated method stub
+		
+			return this.surName+" "+this.firstName+" "+this.secondName;
+		}
 }

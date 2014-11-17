@@ -1,0 +1,9 @@
+
+public class Member {
+private String memberNumber;
+
+public String getMemberNumber() {
+	return memberNumber;
+}
+
+}

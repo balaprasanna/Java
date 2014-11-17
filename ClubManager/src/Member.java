@@ -1,0 +1,36 @@
+
+public class Member  {
+private int memberNumber;
+private Person p;
+
+public int getMemberNumber() {
+	return memberNumber;
+}
+
+public void setMemberNumber(int memberNumber) {
+	this.memberNumber = memberNumber;
+}
+
+public Member(){
+	
+}
+
+public Member(int memberNumber,String surName, String firstName){
+	//this.p= new Person( surName,  firstName,  secondName);
+	//this.memberNumber= memberNumber;
+	this(memberNumber,surName,firstName," ");
+}
+
+public Member(int memberNumber,String surName, String firstName, String secondName){
+	this.p= new Person( surName,  firstName,  secondName);
+	this.memberNumber= memberNumber;
+}
+
+public void Show(){
+	System.out.println(this.toString());
+}
+@Override
+public String toString(){
+	return this.memberNumber+" "+p.toString();	
+}
+}
