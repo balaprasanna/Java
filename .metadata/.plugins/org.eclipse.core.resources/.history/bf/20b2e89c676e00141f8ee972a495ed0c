@@ -1,0 +1,14 @@
+
+public class Club {
+private int currentNumber;
+private Member[] members;
+
+public Club(){
+	this.currentNumber=1;
+	this.members= new Member[100];
+}
+
+public void addMember(String surName, String firstName, String secondName){
+	new Member(currentNumber,surName,firstName,secondName);
+}
+}

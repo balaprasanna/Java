@@ -9,11 +9,7 @@ public Club(){
 	this.members= new Member[100];
 }
 
-public Member addMember(String surName, String firstName, String secondName){
+public void addMember(String surName, String firstName, String secondName){
 	members[arrayPointer]=new Member(currentNumber,surName,firstName,secondName);
-	Member m= members[arrayPointer];
-	currentNumber++;
-	arrayPointer++;
-return m;
 }
 }

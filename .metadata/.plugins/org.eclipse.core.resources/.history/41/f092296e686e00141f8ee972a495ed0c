@@ -27,15 +27,7 @@ public class ClubApplication {
 		
 		Member m = new Member(1,"Mr",
 				"Prasanna","Veerapandi");
-	//	m.Show();
-		
-		Club c = new Club();
-		Member newm=c.addMember("Mr",
-				"Ramu","Veerapandi");
-		Member newm1=c.addMember("Mr",
-				"Prasanna","Verra");
-		newm.Show();
-		newm1.Show();
+		m.Show();
 		
 	}
 }

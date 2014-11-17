@@ -33,7 +33,7 @@ public class ClubApplication {
 		Member newm=c.addMember("Mr",
 				"Ramu","Veerapandi");
 		Member newm1=c.addMember("Mr",
-				"Prasanna","Verra");
+				"Ramu","Verra");
 		newm.Show();
 		newm1.Show();
 		

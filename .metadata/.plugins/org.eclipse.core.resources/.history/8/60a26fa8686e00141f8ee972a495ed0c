@@ -32,10 +32,7 @@ public class ClubApplication {
 		Club c = new Club();
 		Member newm=c.addMember("Mr",
 				"Ramu","Veerapandi");
-		Member newm1=c.addMember("Mr",
-				"Prasanna","Verra");
 		newm.Show();
-		newm1.Show();
 		
 	}
 }
